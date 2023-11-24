@@ -1,1 +1,3 @@
 Frase escrita para o primeiro commit...
+git init 
+git config ggi
