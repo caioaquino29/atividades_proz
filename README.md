@@ -1,6 +1,6 @@
 # git_teste ! 🚀
 Aprendendo usar GitHub tutorial
-+ <a href="https://caioaquino29.github.io/git_teste/" target="blank" >click</a>
++ <a href="https://caioaquino29.github.io/git_teste/" target="blank" rel="external" >click</a>
 + <a href="https://caioaquino29.github.io/git_teste/proz_ex000/index.html">EuroTur</a>
 + <a href="https://caioaquino29.github.io/git_teste/proz_ex001/index.html">Viagem p Europa</a>
 ## New GitHub update
