@@ -1,0 +1,8 @@
+Frase escrita para o primeiro commit...
+git init 
+git config user.name
+git config user.email
+git add --all
+git commit -m 'decriçõa do commit'
+git branch nome-da-nova-branch
+git checkout nome-da-brench 
