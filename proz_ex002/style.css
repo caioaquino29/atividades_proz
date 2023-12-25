@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family:fredoka-one_b ;
+    src: url(img/fredoka-one/FredokaOne-Regular.ttf) format('truetype');
+    font-weight: bold;
+    
+}
+@font-face {
+    font-family:fredoka-one_n ;
+    src: url(img/fredoka-one/FredokaOne-Regular.ttf) format('truetype');
+    font-weight: normal;
+    
+}
+:root{
+    --cor0:#005478;
+    --cor00:#005477;
+    --cor1:#5CB9FF;
+    --cor2:#007b8b;
+    --cor3:white;
+    --font0:fredoka-one_b, san-sarifi;
+    --font1:fredoka-one_n, san-sarifi;
+
+
+
+
+
+
+}
+body{
+    background-color: var(--cor0);
+    color: var(--cor3);
+    font-family: var(--font0);
+}
+header{
+    background-color:var(--cor0);
+    display:flex;
+    margin-bottom: 150px;
+}
+#logo{margin-right:100px ;
+    width: 300px;
+    height: 300px;
+   
+}
+nav{font-family: var(--font1);
+   background-color: var(--cor0);
+   text-align: center;
+    width: 600px;
+    height: 200px;
+    color: var(--cor3);
+    
+}
+.listNav {
+    
+    text-decoration: none;
+    width:800px;
+    height:165px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding-bottom: 35px;
+    border-bottom:2px solid white ;
+   
+   column-gap: 20px;
+    
+}
+.bnt1{ background-color: var(--cor1) ;
+    color: white;
+    width: 60px ;
+    height: 30px;
+    border: none;
+    border-radius: 5px
+
+
+}
+.bnt1:hover{
+    background-color: var(--cor2);
+    border: 2px solid var(--cor1);
+    font-weight: bold;
+}
+li:hover {
+    padding: 2px;
+    font-size: 1.1em;
+    cursor: context-menu;
+transition: 0.6s;
+text-decoration:7px underline var(--cor1);
+
+
+}
+
+
+
