@@ -1,6 +1,8 @@
 *{ margin: 0px;
 padding: 0px;
 }
+/*font-family: 'Maven Pro', sans-serif;
+font-family: 'Oswald', sans-serif;*/
 header{
     padding: 20px;
     display: flex;
@@ -39,6 +41,9 @@ ul{
 
 
 }
+li{
+    font-family: 'Maven Pro', sans-serif;
+}
 li:hover{
     cursor: not-allowed;
     height: 25px;
@@ -70,20 +75,27 @@ article{
     margin-bottom: 200px;
 }
 h1{
-    
-    font: bolder 3em blue ;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+  
+   
     margin: 110px;
     
 }
 h2{
+    font-family: 'Oswald', sans-serif;
     border-radius: 10px;
     padding: 20px 5px ;
     background-color: black;
     color: white;
     margin: 20px 0px;
 }
-h3{padding: 15px 5px;
-    margin-bottom: 20px;text-align: center;border: solid 1px black; box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.382);}
+h3{
+    font-family: 'Oswald', sans-serif;
+    padding: 15px 5px;
+    margin-bottom: 20px;text-align: center;
+    border:  1px solid black; box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.382);
+}
 
 .quadro{
     border-radius:100px;
@@ -111,6 +123,7 @@ h3{padding: 15px 5px;
            flex-direction: column ;
         }
         p{
+           
             margin: 20px;
         }
         .quadro{ width: 300px; height: 300px;}
@@ -118,6 +131,7 @@ h3{padding: 15px 5px;
 }
 
 p{
+    font-family: 'Maven Pro', sans-serif;
     padding: 20px 0px;
 }
 @media (max-width:500px ) {
@@ -136,7 +150,7 @@ p{
 footer{
     height: 200px;
    
-    
+    font-family: 'Maven Pro', sans-serif;
     background-color: black;
     color: white;
 }
