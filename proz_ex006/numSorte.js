@@ -24,3 +24,6 @@ function avaliarNumSorte(numerosDaSorte){
 
 let numerosDaSorte = [37, 14, 26, 5, 94, 87]; /*um variavel conjunto de número da sorte  */
 avaliarNumSorte(numerosDaSorte); /*chamndo a funcção  */
+
+let  fatorial = x => x==0 ? 1 : x*fatorial(x-1)
+console.log(fatorial(21))
