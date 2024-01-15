@@ -1,4 +1,5 @@
 
+
 function alerta(mensagem){
    for(var i =0; i<mensagem.length+1;i++){
         if(i<=2){

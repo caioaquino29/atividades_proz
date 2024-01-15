@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando o DOM</title>
+    <script src="dom.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 id="titulo">Este é o primeiro h2</h2>
+    <div class="texto-simples">Esta é uma div</div>
+
+    <div>
+        <h2>Este é o segundo h2</h2>
+        <p class="texto-simples">Este é um parágrafo dentro da segunda div 
+
+        </p>
+    </div>
+    <ul class="lista">
+        <li class="lista-item">
+            <a href="https://www.google.com">Google</a>
+        </li>
+        <li class="lista-item">
+            <a href="https://www.youtube.com">YouTuobe</a>
+        </li>
+        <li class="lista-item">
+            <a href="https://www.linkedin.com">LinkedIn</a>
+        </li>
+    </ul>
+    <script>
+        const p1= window.document.querySelector('title')
+        document.write(`Na tag title desse documento HTML tem seguinte título:  ${p1.innerHTML}`)
+    </script>
+</body>
+</html>
