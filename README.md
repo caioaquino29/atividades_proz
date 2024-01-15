@@ -6,6 +6,7 @@
 + <a href="https://caioaquino29.github.io/atividades_proz/proz_ex002/index.html">Cidade de Recife  </a> <span>esta na pasta <strong><q>proz_ex002...</q></strong></span>
 + <a href="https://caioaquino29.github.io/atividades_proz/proz_ex002/marco_zero/marco_zero.html">Marco Zero</a> <span>esta na pasta <strong><q>proz_ex002/marco_zero...</q></strong></span>
 + <a href="https://caioaquino29.github.io/atividades_proz/proz_ex005/index.html">Box flex</a> <span>esta na pasta <strong><q>proz_ex005/index...</q></strong></span>
++ <a href='https://caioaquino29.github.io/atividades_proz/proz_ex011/index.html'> innerText Vs innerHTML</a><span> está na pasata <strong>proz_ex011/script.js</strong></span>
 
 
 ## New GitHub update
