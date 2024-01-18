@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area de Compra </title>
+    <link rel="stylesheet" href="../style.css">
+    
+</head>
+<body>
+    <div >
+        <img 
+          class="img-buy" 
+          src="Galaxy-Book4-MS-collaboration.jpg" 
+          alt="notebook siries 4">
+
+        <p  class="text-buy">
+            Galaxy Book4 Pro siries (16 polegadas) AMOLED// GeForce RTX™ 4070// Core™ Ultra 7 
+        </p> 
+        <section id="sub-total">
+            <h3>Subtotal</h3>
+            <p class="tex-span-buy" >R$<span class="span-buy">7400.00</span></p>
+            <button id="btn-subtrair-quantidade">-</button>
+            <input
+              aria-controls="none"
+              type="number"
+              id="quantidade"
+              value="1"
+              min="0" >
+            <button id="btn-adicinar-quatidade">+</button>
+            <label for=""> unidade(s)<button id="final" class="btn-compra"> Buy </button></label>
+        </section>
+    </div>
+
+    <script  defer>
+        let quatidade=document.querySelector('#quantidade');
+        let precoSpan=document.querySelector('.span-buy');
+        let bntAdicinar = document.getElementById('btn-adicinar-quatidade')
+        let bntSutrair = document.getElementById('btn-subtrair-quantidade')
+        let btnFinal = document.querySelector('#final')
+        let galaxyBook4={
+            item: 1,
+            valor:7400.00
+           }
+       
+        
+        
+
+        bntAdicinar.addEventListener('click',()=>{   
+            quatidade.value=Number(quatidade.value)+1
+            adicinarPreco()
+            
+        
+        },true)
+        bntSutrair.addEventListener('click',()=>{ 
+            if(Number(quatidade.value)>1){ 
+                quatidade.value=Number(quatidade.value)-1; subtrairPreco()
+            }
+        })
+        btnFinal.addEventListener('click',()=>{
+            
+            window.alert('Obrigado pela compra');window.close();
+            
+        })
+
+        function adicinarPreco(){
+        
+          galaxyBook4.valor+=7400.00
+          precoSpan.innerText=galaxyBook4.valor.toFixed(2)
+        }
+        function subtrairPreco(){
+           
+         galaxyBook4.valor-=7400.00
+          precoSpan.innerText=galaxyBook4.valor.toFixed(2) 
+         
+        }
+        
+       
+
+    </script>
+</body>
+</html>

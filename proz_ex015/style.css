@@ -1,0 +1,25 @@
+.frase-bisque{
+    width: 300px;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 20px;
+   
+}
+.frase-overline{
+   
+   
+    text-decoration: overline;
+}
+.content{
+    color: aliceblue;
+    width: 500px;
+    height: 600px;
+    background-color: black;
+}
+.content-light{
+    color: #000;
+    width: 500px;
+    height: 600px;
+    background-color: rgba(60, 60, 60, 0.106);
+}

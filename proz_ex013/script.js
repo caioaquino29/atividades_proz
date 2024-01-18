@@ -19,11 +19,10 @@ const arrayPostagens = [
   },
 ]
 let mainTag=document.querySelector('main')
-
 for(var i =1;i<arrayPostagens.length;i++){
 let postagem2 = document.createElement('article')
 
-postagem2.id=`post-${i}` 
+postagem2.id=`post-${i+1}` 
 
 postagem2.innerHTML=`<h3>${arrayPostagens[i].titulo}</h3>
 <p class="subtitulo">${arrayPostagens[i].subtitulo}</p>
