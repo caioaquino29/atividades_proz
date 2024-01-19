@@ -6,6 +6,7 @@ const editarForm = document.querySelector('#editar-form');
 const editarInput = document.querySelector('#editar-input');
 const cancelarEditBtn = document.querySelector('#cancelar-editar-btn');
 let valorAntigoInput;
+let pendenciaTitulo;
 
  
 
@@ -104,6 +105,7 @@ document.addEventListener('click', (e) =>{
       editarInput.value = pendenciaTitulo;
 
       valorAntigoInput = pendenciaTitulo;
+      
 
     }
 })
