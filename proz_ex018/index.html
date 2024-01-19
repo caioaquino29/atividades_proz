@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo avançado</title>
+    <!-- link CSS -->
+        <link rel="stylesheet" href="css/style.css">
+    <!-- script js  -->
+        <script src="js/script.js" defer></script>
+    <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Font de texto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500&family=Teko:wght@300;400;500&display=swap" rel="stylesheet">
+<body>
+    <div class="pendencia-container" >
+        <header>
+            <h1>Lista de Pendências Avançado</h1>
+        </header>
+        <form id="pendencia-form">
+            <p>Adicione a sua tarefa:</p>
+            <div class="form-controle">
+                <input 
+                type="text"  
+                id="pendencia-input" 
+                placeholder="O que vc vai fazer?">
+                <button type="submit">
+                    <i class=" fa fa-plus"></i>
+                </button>
+
+                
+            </div>
+        </form>
+        <form id="editar-form" class="esconder">
+            <p>Edite a sua tarefa:</p>
+            <div class="form-controle">
+                <input type="text" id="editar-input">
+                <button type="submit">
+                    <i class="fa fa-check-double"></i>
+                </button>
+            </div>
+            <button id="cancelar-editar-btn">Cancelar</button>
+
+        </form>
+        <div id="toolbar">
+            <div id="pesquisa">
+                <h4>Pesquisar:</h4>
+                <form>
+                    <input type="text" id="pesquisa-input" placeholder="Buscar">
+                    <button id="apagar-button">
+                        <i class="fa fa-arrow-left"></i>
+                    </button>
+                </form>
+            </div>
+            <div id="filtrar">
+                <h4>Filtrar:</h4>
+                <select id="filtrar-select">
+                    <option value="all">Todos</option>
+                    <option value="done">feitos</option>
+                    <option value="todo">A fazer</option>
+                </select>
+            </div>
+        </div>
+        <div id="pendencia-lista">
+            
+        </div>
+    </div>
+
+</body>
+</html>

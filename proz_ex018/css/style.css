@@ -1,0 +1,158 @@
+/* parte geral estilisação */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    color:#0B1C26;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(../img/df57eba26ea74e2ea67cb508db29-1679454.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* #BF4163  #0F4459 #2481A6 #C2D2F2 #0B1C26*/
+button{
+    background-color:#D9C8B4 ;
+    color: #383040;
+    border: 2px solid;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-weight: bold;
+}
+button i{
+    color: #383040;
+    pointer-events: none; 
+}
+button:hover{
+    color: #D9C8B4;
+    
+    background-color:#0F4459 ;
+}
+button:hover > i {
+   color: #D9C8B4 ;
+   
+}
+input, select{
+    padding: .25rem .5rem;
+}
+
+/* parte especifica da estilização */
+/* escoder é primeira interação */
+.esconder{
+    display: none;
+}
+/* pendencia do header */
+.pendencia-container{
+    max-width: 450px;
+    margin: 3rem auto;
+    background-color:#F2EDE4 ;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #3830405b;
+}
+.pendencia-container header{
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 2px solid #383040 ;
+}
+.pendencia-container header h1{
+    font-weight: 500;
+    color: #383040;
+}
+/* formularios  */
+#pendencia-form, #editar-form{
+    padding: 1rem;
+    border-bottom: 2px solid #D9C8B4;
+}
+#pendencia-form p, #editar-form p{
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.form-controle {
+    display: flex;
+}
+.form-controle input{
+    margin-right: .3rem;
+}
+#cancelar-editar-btn{
+    margin-top: 1rem;
+}
+/* pedndencia toolbar */
+#toolbar{
+    display: flex;
+    padding: 1rem;
+    border-bottom: 2px solid #D9C8B4;
+
+}
+#toolbar h4 {
+    margin-bottom: .5rem;
+}
+#pesquisa{
+    border-right: 2px solid #D9C8B4;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+h4{
+    font-weight: 400;
+}
+#pesquisa form{
+    display: flex;
+}
+#pesquisa input{
+    width: 100%;
+    margin-right: .3rem;
+}
+#filtrar{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+#filtrar-select {
+    flex:1;
+    background-color: #D9C8B4;
+    color: #383040;
+    font-weight: bold;
+    border-radius: 6px;
+}
+/* Lista de pendência  */
+.pendencia{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 2px solid #D9C8B4;
+    transition: .3s;
+
+}
+.pendencia h3{
+    font-weight: 500;
+    flex: 1;
+    font-size: 0.9rem;
+}
+.pendencia button{
+    margin-left: .4rem;
+}
+/* feito é segunda interação */
+.feito{
+    background-color:#383040;
+}
+.feito h3{
+    color: #F2EDE4;
+    text-decoration: 2px line-through #BF4163;
+    font-style: italic;
+}
