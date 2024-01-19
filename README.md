@@ -8,6 +8,10 @@
 + <a href="https://caioaquino29.github.io/atividades_proz/proz_ex005/index.html">Box flex</a> <span>esta na pasta <strong><q>proz_ex005/index...</q></strong></span>
 + <a href='https://caioaquino29.github.io/atividades_proz/proz_ex011/index.html'> innerText Vs innerHTML</a><span> está na pasata <strong>proz_ex011/script.js</strong></span>
 + <a href='https://caioaquino29.github.io/atividades_proz/proz_ex014/index.html'> Loja Virtual sem html só js....</a><span> está na pasata <strong>proz_ex014/script.js</strong></span>
++ <a class='link' href='https://caioaquino29.github.io/atividades_proz/proz_ex018/index.html'> Tarefas pedêntes.. </a><span  style="color: green" > está na pasata <strong>proz_ex018/script.js</strong></span>
+
+
+
 
 
 
